@@ -232,7 +232,8 @@ function love.update(dt)
     --
     -- paddles can move no matter what state we're in
     --
-    -- This will be the paddle that is turned into an "AI" and this will cause the paddle to follow the ball based on their y coordinate!
+    -- This will be the paddle that is turned into an "AI" 
+    -- and this will cause the paddle to follow the ball based on their y coordinate!
     if ball.y < player1.y then
         player1.dy = - PADDLE_SPEED 
     elseif ball.y > player1.y then
